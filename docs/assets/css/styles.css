@@ -207,7 +207,7 @@ header nav li {
 
 /*Destinations Section*/
 
-.destinations .grid li {
+.homes .grid li {
 	position: relative;
 	height: 350px;
 	/* padding: 20px; */
@@ -217,12 +217,12 @@ header nav li {
 	background-position: center;
 }
 
-.destinations .grid li.small {
+.homes .grid li.small {
 	transition: all 0.5s ease;
 	flex-basis: 30%;
 }
 
-.destinations .grid li.large {
+.homes .grid li.large {
 	flex-basis: 70%;
 }
 
@@ -255,20 +255,20 @@ header nav li {
 	text-align: center;
 }
 
-.destinations .grid li.small:hover .overlay {
+.homes .grid li.small:hover .overlay {
 	opacity: 0.75;
 }
 
 @media (max-width: 1100px) {
-	.destinations .grid li.small,
-	.destinations .grid li.large {
+	.homes .grid li.small,
+	.homes .grid li.large {
 		flex-basis: 50%;
 	}
 }
 
 @media (max-width: 800px) {
-	.destinations .grid li.small,
-	.destinations .grid li.large {
+	.homes .grid li.small,
+	.homes .grid li.large {
 		flex-basis: 100%;
 	}
 }
@@ -385,4 +385,4 @@ footer p {
 	footer ul li {
 		margin: 0 8px;
 	}
-} 
+}
